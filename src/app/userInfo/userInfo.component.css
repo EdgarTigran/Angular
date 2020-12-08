@@ -1,0 +1,9 @@
+article {
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  padding-bottom: 10%;
+  background-color: violet;
+  width: 70%;
+  text-align: center;
+}

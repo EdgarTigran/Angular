@@ -1,0 +1,51 @@
+section{
+    padding-top: 118px;
+}
+
+nav {
+
+    width: 30%;
+    background: lightgreen;
+    padding:  0 20px;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+    height: 100%;
+    position: absolute;
+
+}
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 27px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background: lightgreen;
+    z-index: 1;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+li a:hover {
+    background: green;
+    color: white;
+}
+
+
+
+
