@@ -1,5 +1,5 @@
 header {
-    
+
     position: fixed;
     width: 100%;
     top: 0;
@@ -14,24 +14,20 @@ h1 {
 }
 
 ul {
+    display: flex;
     list-style-type: none;
-    overflow: hidden;
     margin: 0;
     padding: 0;
     background-color: lightskyblue;
-    
-    
+
 }
 
-/* ul li{
-    position: sticky;
-    top: 0;
-} */
-
-
+li .push {
+  margin-left: auto;
+}
 
 li a {
-    display: inline-block;
+    display:block;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -39,6 +35,8 @@ li a {
     border-right:  1px solid white;
     font-size: 20px;
 }
+
+
 
 li a:hover {
     background-color:lightslategray
