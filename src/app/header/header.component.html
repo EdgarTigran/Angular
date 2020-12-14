@@ -1,12 +1,41 @@
 <header>
   <h1>My app</h1>
   <nav>
-    <ul>
-      <li><a class="active" href="home">Home</a></li>
-      <li><a href="#">Link-1</a></li>
-      <li><a href="#">Link-2</a></li>
-      <li style="margin-left: auto"><a href="">Log in</a></li>
+    <ul class="dropdowns">
+      <li class="active"><a href="home">Home</a></li>
+      <li>
+        <div>
+          Patterns</div>
+        <ul>
+          <li>Layout</li>
+          <li>Input</li>
+          <li>
+            <div>Navigation</div>
+            <ul>
+              <li>Breadcrumb</li>
+              <li>Dropdouwn</li>
+              <li>Menu</li>
+              <li>Nested dropdown</li>
+            </ul>
+
+          </li>
+          <li>Display</li>
+          <li>Feedback</li>
+        </ul>
+
+      </li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">About</a></li>
+      <div class="search">
+        <svg height="36" width="36">
+          <circle cx="17" cy="17" r="6" stroke="rgb(172, 169, 169)" stroke-width="2" fill="white" />
+          <line x1="23" y1="23" x2="30" y2="30" style="stroke:rgb(172, 169, 169);stroke-width:2" />
+        </svg>
+        <input type="text" placeholder="Search...">
+      </div>
+      <li><a href="">Log in</a></li>
       <li><a href="reg">New user</a></li>
     </ul>
+
   </nav>
 </header>

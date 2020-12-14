@@ -1,5 +1,5 @@
 section{
-    padding-top: 118px;
+    padding-top: 110px;
 }
 
 nav {
@@ -42,7 +42,7 @@ li a{
 }
 
 li a:hover {
-    background: green;
+    background: rgb(52, 219, 52);
     color: white;
 }
 
